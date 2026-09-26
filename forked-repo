@@ -1,12 +1,16 @@
-C:\Users\sneha>curl https://api.github.com/repos/snehal2006-ux/mcino-Introduction-to-Git-and-GitHub | findstr fork
+ C:\Users\sneha>curl https://api.github.com/repos/snehal2006-ux/mcino-Introduction-to-Git-and-GitHub-old | findstr /C:"full_name" /C:"fork" /C:"parent"
 
+"full_name": "snehal2006-ux/mcino-Introduction-to-Git-and-GitHub-old",
 "fork": true,
-"forks_url": "https://api.github.com/repos/snehal2006-ux/mcino-Introduction-to-Git-and-GitHub/forks",
+"forks_url": "https://api.github.com/repos/snehal2006-ux/mcino-Introduction-to-Git-and-GitHub-old/forks",
 "forks_count": 0,
 "allow_forking": true,
 "forks": 0,
+"parent": {
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
 "fork": false,
 "forks_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks",
-"forks_count": 10258,
+"forks_count": 10257,
 "allow_forking": true,
-"forks": 10258
+"forks": 10257
+}
